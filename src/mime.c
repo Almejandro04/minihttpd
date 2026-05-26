@@ -23,7 +23,7 @@ const char *obtener_tipo_MIME(const char *ruta){
         {
             return "image/png";
         }
-        if (strcmp(extension, ".jpg") == 0)
+        if (strcmp(extension, ".jpg") == 0 || strcmp(extension, ".jpeg") == 0)
         {
             return "image/jpeg";
         }
