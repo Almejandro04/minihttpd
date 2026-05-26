@@ -1,1 +1,0 @@
-console.log("MiniHTTPd enviando archivo JS")

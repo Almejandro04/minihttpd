@@ -137,6 +137,7 @@ int obtener_tamano_archivo(const char *ruta_archivo, long *tamano){
 
 }
 
+
 int leer_archivo(const char *ruta_archivo, char *buffer, long tamano_buffer, long *bytes_leidos){
 
     if(ruta_archivo == NULL || buffer == NULL || bytes_leidos == NULL || tamano_buffer < 0){
